@@ -1,4 +1,4 @@
-package testing.testproject;
+package ict2105.team10project;
 
 import org.junit.Test;
 

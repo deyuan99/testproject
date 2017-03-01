@@ -1,4 +1,4 @@
-package testing.testproject;
+package ict2105.team10project;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("testing.testproject", appContext.getPackageName());
+        assertEquals("ict2105.team10project", appContext.getPackageName());
     }
 }

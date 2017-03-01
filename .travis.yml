@@ -34,5 +34,5 @@ script:
     - "./gradlew build"
 
     # Uncomment and specify the correct key for integration into Slack    
-#notifications:
-#  slack: ict2105team10:lqaINwWzcSorCfaCbAKUvrBm
+notifications:
+  slack: ict2105team10:RBcddqfPjFspU3vcjy4GGiaq
