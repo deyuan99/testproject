@@ -8,27 +8,36 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
-        <activity android:name=".pushup.Pushup" />
-        <activity
-            android:name=".pushup.two"
-            android:label="two" />
-        <activity
-            android:name=".mappage2"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_mappage2"
-            android:theme="@style/FullscreenTheme">
+
+        <activity android:name=".Login"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".leader" />
-        <activity android:name=".challenge" />
-        <activity
-            android:name=".guild"
-            android:label="@string/title_activity_guild" />
-        <activity android:name=".play"></activity>
+
+        <activity android:name=".MainPage"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".PlayView"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".DailyChallengesView"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".GuildView"
+            android:screenOrientation="landscape">
+        </activity>
+
+        <activity android:name=".LeaderboardView"
+            android:screenOrientation="landscape">
+        </activity>
+
     </application>
 
 </manifest>

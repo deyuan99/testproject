@@ -1,12 +1,9 @@
 <resources>
-    <string name="app_name">Team10Project</string>
+    <string name="app_name">FiTLeh</string>
+    <string name="signin_btn">Sign in</string>
+    <string name="play_btn">Play</string>
+    <string name="daily_btn">Daily Challenge</string>
+    <string name="guild_btn">Guild</string>
+    <string name="leaderboard_btn">Leaderboard</string>
 
-    <string name="title_activity_map">Map</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-
-    <string name="title_activity_mappage">mappage</string>
-
-    <string name="title_activity_mappage2">mappage2</string>
-    <string name="title_activity_guild">guild</string>
 </resources>
