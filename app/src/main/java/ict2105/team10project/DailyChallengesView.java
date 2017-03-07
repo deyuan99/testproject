@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import ict2105.team10project.dailychallenges.MapsActivity;
 import ict2105.team10project.dailychallenges.PushupsView;
 import ict2105.team10project.dailychallenges.StepsView;
 
@@ -42,7 +43,7 @@ public class DailyChallengesView extends Activity {
         sprintBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(DailyChallengesView.this, MainPage.class);
+                Intent intent = new Intent(DailyChallengesView.this, MapsActivity.class);
                 startActivity(intent);
             }
         });
