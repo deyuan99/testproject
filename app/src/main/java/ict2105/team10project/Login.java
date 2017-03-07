@@ -11,7 +11,7 @@ import android.widget.Button;
 
 public class Login extends Activity {
     // Variables List
-    Button signinBtn;
+    private Button signinBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

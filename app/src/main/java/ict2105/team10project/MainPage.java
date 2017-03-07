@@ -9,7 +9,7 @@ import android.widget.Button;
 public class MainPage extends Activity {
 
     // Variables List
-    Button playBtn, dailyBtn, guildBtn, leaderBtn;
+    private Button playBtn, dailyBtn, guildBtn, leaderBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
