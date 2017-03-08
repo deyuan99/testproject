@@ -267,10 +267,15 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 //        if (mCurrLocationMarker != null) {
 //            mCurrLocationMarker.remove();
 //        }
+
         Log.d("Location has changed ","boolean value: " + StartPressed);
         if(StartPressed==true){
             //Place current location marker
             //Get current location using getLatitude and Longitude
+            /**
+             * If the map detects the user has started the tracking
+             * then we began the tracking of locations
+             */
             if ((currentLat == null) && (currentLong ==null)){
                 currentLat=location.getLatitude();
                 currentLong=location.getLongitude();
@@ -300,13 +305,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 cordList.add(new LatLng(currentLat,currentLong));
                 drawLines(cordList);
 
-
-
-
             }
 
         }
-
             LatLng latLng = new LatLng(location.getLatitude(), location.getLongitude());
             MarkerOptions markerOptions = new MarkerOptions();
             markerOptions.position(latLng);
@@ -323,11 +324,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 //            if (mGoogleApiClient != null) {
 //                LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
 //            }
-
-
-
-
-
 
     }
     public static final int MY_PERMISSIONS_REQUEST_LOCATION = 99;
