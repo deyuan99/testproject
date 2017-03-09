@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">FiTLeh</string>
     <string name="signin_btn">Sign in</string>
+    <string name="signup_btn">Sign up</string>
     <string name="play_btn">Play</string>
     <string name="daily_btn">Daily Challenge</string>
     <string name="guild_btn">Guild</string>
     <string name="leaderboard_btn">Leaderboard</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
 
     <string name="step_counter">android.hardware.sensor.stepcounter</string>
     <string name="step_detector"> android.hardware.sensor.stepdetector</string>

@@ -22,7 +22,6 @@ public class DatabaseActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.database_activity);
 
-
         // Write a message to the database
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("login");
