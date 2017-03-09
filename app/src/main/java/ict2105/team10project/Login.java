@@ -24,7 +24,7 @@ public class Login extends Activity implements View.OnClickListener {
     private EditText emailInput, passwordInput;
 
     final static private String TAG = "LOGIN!";
-
+    //
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
 
