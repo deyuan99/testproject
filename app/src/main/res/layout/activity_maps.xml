@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ict2105.team10project.dailychallenges.MapsActivity" >
+
+
+    <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/map"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent" />
+
+    <Button
+        android:text="Start Timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="bottom|center"
+        android:id="@+id/startTimer_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="Cambria" />
+
+
+    <Button
+        android:text="Store into DB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:id="@+id/storeDb_Btn"
+
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/startTimer_btn"
+        android:fontFamily="Cambria"
+        android:visibility="invisible" />
+
+    <TextView
+        android:text="000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/distanceText"
+        android:fontFamily="Cambria"
+        android:textSize="30sp"
+        android:layout_marginEnd="19dp"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2" />
+
+    <TextView
+        android:text="METRES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="30sp"
+        android:fontFamily="Cambria"
+        android:layout_marginEnd="30dp"
+        android:layout_alignTop="@+id/startTimer_btn"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="01:00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TimerView"
+        android:textSize="30sp"
+        android:fontFamily="Cambria"
+        android:layout_marginEnd="71dp"
+        android:layout_below="@+id/storeDb_Btn"
+        android:layout_toStartOf="@+id/storeDb_Btn" />
+
+</RelativeLayout>
