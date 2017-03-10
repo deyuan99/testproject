@@ -4,7 +4,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.2"
     defaultConfig {
-//        multiDexEnabled true
+        multiDexEnabled true
         applicationId "ict2105.team10project"
         minSdkVersion 19
         targetSdkVersion 23
@@ -24,10 +24,10 @@ android {
         exclude 'META-INF/NOTICE'
 
     }
-//    dexOptions {
+    dexOptions {
 //        incremental true
-//        javaMaxHeapSize "4g"
-//    }
+        javaMaxHeapSize "4g"
+    }
 }
 repositories {
     mavenCentral()
