@@ -13,4 +13,8 @@
     <string name="step_detector"> android.hardware.sensor.stepdetector</string>
     <string name="title_activity_test">Map</string>
 
+
+    <string name="facebook_application_id" translatable="false">1253598354689541</string>
+    <string name="facebook_client_token" translatable="false">4c97e7630c0319deca78f3a2e8506ba2</string>
+    <string name="facebook">USE FACEBOOK</string>
 </resources>

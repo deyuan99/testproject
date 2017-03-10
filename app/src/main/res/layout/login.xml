@@ -58,5 +58,29 @@
         android:text="SKIP PAGE"
         android:layout_alignParentEnd="true"/>
 
+    <!--<com.facebook.login.widget.LoginButton-->
+        <!--android:text="Hello"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:id="@+id/fb_login_bn"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignStart="@+id/signup_btn"-->
+        <!--android:layout_marginBottom="22dp"-->
+        <!--android:layout_alignEnd="@+id/signup_btn">-->
+
+<!--</com.facebook.login.widget.LoginButton>-->
+    <Button
+        android:id="@+id/facebook_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:ems="10"
+        android:textSize="18sp"
+        android:text="@string/facebook"
+        android:background="@color/com_facebook_blue"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/signup_btn"
+        android:layout_marginBottom="17dp" />
+
 
 </RelativeLayout>

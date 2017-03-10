@@ -28,10 +28,12 @@ public class MainPage extends Activity {
         guildBtn = (Button) findViewById(R.id.guild_btn);
         leaderBtn = (Button) findViewById(R.id.leader_btn);
 
+        //
+
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if (user != null) {
             String uid = user.getUid();
-            Log.d(TAG, "user id: " + uid);
+            Log.d(TAG, "HERE! user id: " + uid);
         }
 
         playBtn.setOnClickListener(new View.OnClickListener() {
@@ -66,4 +68,6 @@ public class MainPage extends Activity {
             }
         });
     }
+
+
 }

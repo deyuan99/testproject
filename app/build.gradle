@@ -4,7 +4,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
     defaultConfig {
-        multiDexEnabled true
+//        multiDexEnabled true
         applicationId "ict2105.team10project"
         minSdkVersion 19
         targetSdkVersion 23
@@ -24,10 +24,13 @@ android {
         exclude 'META-INF/NOTICE'
 
     }
-    dexOptions {
-        incremental true
-        javaMaxHeapSize "4g"
-    }
+//    dexOptions {
+//        incremental true
+//        javaMaxHeapSize "4g"
+//    }
+}
+repositories {
+    mavenCentral()
 }
 
 dependencies {
@@ -43,6 +46,8 @@ dependencies {
     compile 'com.google.firebase:firebase-database:10.2.0'
     compile 'com.google.firebase:firebase-auth:10.2.0'
     compile 'com.firebase:firebase-client-android:2.4.0'
+    compile 'com.firebaseui:firebase-ui:0.4.4'
+    //compile 'com.facebook.android:facebook-android-sdk:4.20.0'
     testCompile 'junit:junit:4.12'
 }
 apply plugin: 'com.google.gms.google-services'

@@ -36,7 +36,7 @@ public class PushupsView extends Activity implements SensorEventListener {
 
         //Sound Player
         mySound = new SoundPool(1000, AudioManager.STREAM_MUSIC,0);
-        sohoId = mySound.load(this,R.raw.hitsound,1);
+        sohoId = mySound.load(this, R.raw.hitsound,1);
         displayCounts();
 
         //Amount in seconds
